@@ -64,13 +64,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\playerAction.cs" />
+    <Compile Include="Assets\Scripts\attackScript.cs" />
     <Compile Include="Assets\Scripts\PaladinV.S.Guardian\playerStats.cs" />
     <Compile Include="Assets\Scripts\BowmanV.S.Slime\makeButton.cs" />
     <Compile Include="Assets\Scripts\BowmanV.S.Slime\attScript.cs" />
     <Compile Include="Assets\Scripts\BowmanV.S.Slime\pAction.cs" />
     <Compile Include="Assets\Scripts\PaladinV.S.Guardian\attackScript.cs" />
     <Compile Include="Assets\Scripts\PaladinV.S.Guardian\playerAction.cs" />
+    <Compile Include="Assets\Scripts\makeBtn.cs" />
     <Compile Include="Assets\Scripts\BowmanV.S.Slime\gameController.cs" />
+    <Compile Include="Assets\Scripts\playerStats.cs" />
     <Compile Include="Assets\Scripts\PaladinV.S.Guardian\makeBtn.cs" />
     <Compile Include="Assets\Scripts\PaladinV.S.Guardian\GameController.cs" />
     <Compile Include="Assets\Scripts\BowmanV.S.Slime\pStats.cs" />
@@ -82,7 +87,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Sprites\superpowers-asset-packs-master\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
