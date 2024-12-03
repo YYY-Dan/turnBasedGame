@@ -15,7 +15,7 @@ C:/Users/YTC09/turnBasedGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7439
+7746
 Successfully changed project path to: C:/Users/YTC09/turnBasedGame
 C:/Users/YTC09/turnBasedGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/YTC09/turnBasedGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31368]  Target information:
+Player connection [22524]  Target information:
 
-Player connection [31368]  * "[IP] 192.168.0.154 [Port] 0 [Flags] 2 [Guid] 1760986105 [EditorId] 1760986105 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-93N0V15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22524]  * "[IP] 192.168.0.154 [Port] 0 [Flags] 2 [Guid] 1070063287 [EditorId] 1070063287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-93N0V15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31368] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31368] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22524] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 20.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 39.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.49f1 (4dae1bb8668d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Resources/UnitySubsystems
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016867 seconds.
-- Loaded All Assemblies, in  0.668 seconds
+Registered in 0.027911 seconds.
+- Loaded All Assemblies, in  1.126 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.469 seconds
-Domain Reload Profiling: 1135ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 1715ms
+	BeginReloadAssembly (408ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (199ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (188ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (399ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (262ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (236ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (471ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (310ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (595ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
+		SetupLoadedEditorAssemblies (485ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (270ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,51 +120,51 @@ Domain Reload Profiling: 1135ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.128 seconds
+- Loaded All Assemblies, in  1.655 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.957 seconds
-Domain Reload Profiling: 2080ms
-	BeginReloadAssembly (266ms)
+- Finished resetting the current domain, in  1.508 seconds
+Domain Reload Profiling: 3155ms
+	BeginReloadAssembly (377ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (697ms)
-		LoadAssemblies (554ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1045ms)
+		LoadAssemblies (717ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (304ms)
-			TypeCache.Refresh (256ms)
-				TypeCache.ScanAssembly (231ms)
-			ScanForSourceGeneratedMonoScriptInfo (39ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (958ms)
+		AnalyzeDomain (533ms)
+			TypeCache.Refresh (466ms)
+				TypeCache.ScanAssembly (432ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (718ms)
+		SetupLoadedEditorAssemblies (1160ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (537ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (859ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 13.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (241.4 KB). Loaded Objects now: 4442.
-Memory consumption went from 143.5 MB to 143.3 MB.
-Total: 9.486800 ms (FindLiveObjects: 0.440800 ms CreateObjectMapping: 0.398100 ms MarkObjects: 8.169200 ms  DeleteObjects: 0.477200 ms)
+Unloading 38 unused Assets / (241.5 KB). Loaded Objects now: 4442.
+Memory consumption went from 143.8 MB to 143.6 MB.
+Total: 7.310800 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.547600 ms MarkObjects: 5.749000 ms  DeleteObjects: 0.472200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,142 +181,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1263412.961950 seconds.
-  path: Assets/Sprites/prehistoric-platformer/hud/health-bar-preview.png
-  artifactKey: Guid(916cb9eb7776eee4d9655844b54b7c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/prehistoric-platformer/hud/health-bar-preview.png using Guid(916cb9eb7776eee4d9655844b54b7c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 1264341.707077 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/rpg-battle-system/HUD/bar/background.png
+  artifactKey: Guid(d725cbe487a889847b8b947ea47af05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/rpg-battle-system/HUD/bar/background.png using Guid(d725cbe487a889847b8b947ea47af05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ef4cca57419c688ed7daba8992d4a531') in 0.096308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 527.135079 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/icons/barrel.png
-  artifactKey: Guid(beadf1d05b8791748a8379f2c1aab861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/icons/barrel.png using Guid(beadf1d05b8791748a8379f2c1aab861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'acff0dae3e467dbf889e17773189e1ab') in 0.117047 seconds
+ -> (artifact id: 'b50e3eb0795b7f19fa646484b566fd2c') in 0.236328 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/health-bar-box.png
-  artifactKey: Guid(dc56735cf04918842ad91f0e90b59301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/health-bar-box.png using Guid(dc56735cf04918842ad91f0e90b59301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/life-empty.png
+  artifactKey: Guid(5e8c7396504a6d84a8408c53981770fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/life-empty.png using Guid(5e8c7396504a6d84a8408c53981770fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ba3915566c08809dd16d2edeb1df2a2e') in 0.032360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/explosive-barrel.png
-  artifactKey: Guid(9513968efad2e694cb119737aaddeca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/explosive-barrel.png using Guid(9513968efad2e694cb119737aaddeca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e29e416a81be9e1905b127ae69a2f6f5') in 0.031329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/health-bar-fill.png
-  artifactKey: Guid(3405bf9e606a2ea46a03c0557075e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/health-bar-fill.png using Guid(3405bf9e606a2ea46a03c0557075e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e045dc6ee00b58d8da09d41132190c3a') in 0.033469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/energy-bar-fill.png
-  artifactKey: Guid(d49aeedd92319764c94271a256f34139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/energy-bar-fill.png using Guid(d49aeedd92319764c94271a256f34139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9113c9e8d405a109854f336d7d8ffa81') in 0.040328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/health-bar.png
-  artifactKey: Guid(0137d96019203f141aec374f61aad177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/health-bar.png using Guid(0137d96019203f141aec374f61aad177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '189d76b3849c7c504175b997d7f3d2c1') in 0.041612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/energy-bar.png
-  artifactKey: Guid(77438a798c884284596aa259567ed36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/energy-bar.png using Guid(77438a798c884284596aa259567ed36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e1a669f79741b264310ac6093078006e') in 0.032623 seconds
+ -> (artifact id: 'aecf325c2ff480f759f7a3bdb0e57b1a') in 0.051702 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/top-down-shooter/item/barril.png
-  artifactKey: Guid(c3dfc270daffa9d4884080eefd3951e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/top-down-shooter/item/barril.png using Guid(c3dfc270daffa9d4884080eefd3951e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/items/ball.png
+  artifactKey: Guid(e4533ec55fc206d4db8cc27b84e2d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/items/ball.png using Guid(e4533ec55fc206d4db8cc27b84e2d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9512e3d142b97322e0674e479532f24f') in 0.039238 seconds
+ -> (artifact id: 'b93b07f68409a88f138bda3db2e4e967') in 0.039621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/3d-character/environment/background-texture.png
+  artifactKey: Guid(561a5fa670012044c859d359423614a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/3d-character/environment/background-texture.png using Guid(561a5fa670012044c859d359423614a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7ccc69c366fb14c5c4fa706a7f2af7ae') in 0.051001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/number.gif
+  artifactKey: Guid(61a99379e752ec548999dc1059096b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/number.gif using Guid(61a99379e752ec548999dc1059096b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a5183c1b561add7d5bdc8e4e8d7b863') in 0.040676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/life-full.png
+  artifactKey: Guid(79aed9db1cc50514ba2c029c090d8eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/life-full.png using Guid(79aed9db1cc50514ba2c029c090d8eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1f5f22c94dff9ef3beefba12430a4ab') in 0.033192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/lives-icon.png
+  artifactKey: Guid(7d6b38a7f2a94a54d91098a9ce6e2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud/lives-icon.png using Guid(7d6b38a7f2a94a54d91098a9ce6e2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9cf1b97069ccb08404ba230433377022') in 0.035720 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.047 seconds
+- Loaded All Assemblies, in  2.011 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.468 seconds
-Domain Reload Profiling: 4511ms
-	BeginReloadAssembly (1067ms)
+- Finished resetting the current domain, in  2.179 seconds
+Domain Reload Profiling: 4187ms
+	BeginReloadAssembly (1025ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (796ms)
+		DisableScriptedObjects (751ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (784ms)
-		LoadAssemblies (897ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (789ms)
+		LoadAssemblies (889ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (45ms)
-			TypeCache.Refresh (23ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (27ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (2470ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2180ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1854ms)
+		SetupLoadedEditorAssemblies (1478ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (1421ms)
-			ProcessInitializeOnLoadMethodAttributes (120ms)
-			AfterProcessingInitializeOnLoad (32ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (1084ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (25ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (46ms)
-Refreshing native plugins compatible for Editor in 20.35 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 16.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3958 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.6 KB). Loaded Objects now: 4472.
+Unloading 25 unused Assets / (213.7 KB). Loaded Objects now: 4467.
 Memory consumption went from 144.2 MB to 144.0 MB.
-Total: 37.662100 ms (FindLiveObjects: 23.788800 ms CreateObjectMapping: 0.622100 ms MarkObjects: 11.434400 ms  DeleteObjects: 1.811100 ms)
+Total: 10.024400 ms (FindLiveObjects: 0.611200 ms CreateObjectMapping: 1.066200 ms MarkObjects: 7.728000 ms  DeleteObjects: 0.617200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -334,207 +314,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 178.748079 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/color-palette.png
-  artifactKey: Guid(4da940ab185fae74584487d155a2734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/color-palette.png using Guid(4da940ab185fae74584487d155a2734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 83.350087 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/font-20x20.png
+  artifactKey: Guid(4642a28704aef9740a662156af01e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/font-20x20.png using Guid(4642a28704aef9740a662156af01e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ad9bd69a9ece00d836373bec8b7ed9d7') in 0.131833 seconds
+ -> (artifact id: 'e17db6af34c363c3f6e4e4640eef0433') in 0.149787 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/preview.png
-  artifactKey: Guid(29384f9ce9d72954eb54fcfc20df1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/preview.png using Guid(29384f9ce9d72954eb54fcfc20df1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.005691 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/title-font.png
+  artifactKey: Guid(1dee7688c4d9a6a42843e7a5b8145823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/title-font.png using Guid(1dee7688c4d9a6a42843e7a5b8145823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '17ffa510f5cb02b9e21c336b56ccba73') in 0.052696 seconds
+ -> (artifact id: 'bc7e250c7fad0d4f335f91c631912a9c') in 0.053420 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.496437 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud
-  artifactKey: Guid(b3614b37029974c4588777fa043a21c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud using Guid(b3614b37029974c4588777fa043a21c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1ef4bb614253665cc83bedbee91a5151') in 0.000803 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/preview.png
+  artifactKey: Guid(b1ae7187911d99a4ebe2a2632a8a40ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/preview.png using Guid(b1ae7187911d99a4ebe2a2632a8a40ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '02850447712d65ab050e0b740c9bd5eb') in 0.063955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.637285 seconds.
+  path: Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud
+  artifactKey: Guid(bb52906c80f972f4fa45fa7e086bef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/superpowers-asset-packs-master/space-shooter/hud using Guid(bb52906c80f972f4fa45fa7e086bef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81f9b77f6b8df50bec197807360eeecf') in 0.000743 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.084118 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/1.png
-  artifactKey: Guid(0e17e9bdf496ca94e9e95c607940c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/1.png using Guid(0e17e9bdf496ca94e9e95c607940c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e2ab4f759f65072ac170822734ce71fa') in 0.036924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-4.png
-  artifactKey: Guid(b57b4797e19e1f84fb7a899d285af330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-4.png using Guid(b57b4797e19e1f84fb7a899d285af330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3cdacf11b0085d7b97d9298cc9b0b24a') in 0.039525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-1.png
-  artifactKey: Guid(0066654bdbfa9234bb5c366ee90955a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-1.png using Guid(0066654bdbfa9234bb5c366ee90955a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6018b4f1286278c9636ad17a1459d237') in 0.050031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-6.png
-  artifactKey: Guid(b39281677b63f85499b0cd58e614a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-6.png using Guid(b39281677b63f85499b0cd58e614a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3d7dee9170e57c3b74e5f93e094cd2d5') in 0.048400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-5.png
-  artifactKey: Guid(2a176e372512e024b9a5276bdf94ac3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/ammo-5.png using Guid(2a176e372512e024b9a5276bdf94ac3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c025c92fe83bfaf770809a2a86fbdd8e') in 0.047172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/wold-map-example.png
-  artifactKey: Guid(0dafcf964bc7ff54dacdce69c2973118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/wold-map-example.png using Guid(0dafcf964bc7ff54dacdce69c2973118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd19fa64c56d92bdf9ed7bb63c2d44884') in 0.068723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 25.012000 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/top-down-shooter/font-1.png
-  artifactKey: Guid(21d192477b41b184a868d6079ef15b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/top-down-shooter/font-1.png using Guid(21d192477b41b184a868d6079ef15b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9ca5ec128f0d6e1cf0261df54c00c5a8') in 0.035815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/top-down-shooter/preview.png
-  artifactKey: Guid(7335c95fd90b548439dfcc4adbe89562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/top-down-shooter/preview.png using Guid(7335c95fd90b548439dfcc4adbe89562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bc02027fbdcbf3c9dbfdadbc6ed1b997') in 0.038866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.572567 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/3d-character
-  artifactKey: Guid(f62c4326061666f46a63009e2d9649da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/3d-character using Guid(f62c4326061666f46a63009e2d9649da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3069fa69525858f35f64b3e3a50d6e8f') in 0.000930 seconds
+  Time since last request: 32.948811 seconds.
+  path: Assets/Scenes/BowmanV.S.Slime.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BowmanV.S.Slime.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45b29365ef6f2798851b9c3dd23566a2') in 0.000678 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 1.358229 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/medieval-fantasy
-  artifactKey: Guid(7a398aab097419346b7874e7e9b213fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/medieval-fantasy using Guid(7a398aab097419346b7874e7e9b213fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3924dba6f6f0e7bd70e50979f433c3e0') in 0.001183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.835247 seconds.
-  path: Assets/Scenes/GreenPaladinV.S.CastleGuardian.unity
-  artifactKey: Guid(46bdb173bae588e42bbeafd38938ac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GreenPaladinV.S.CastleGuardian.unity using Guid(46bdb173bae588e42bbeafd38938ac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e73f728c25f5619162cca0960ec98087') in 0.002267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.272720 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/3d-character/preview.png
-  artifactKey: Guid(cb9de266618feab45aa603f5478ee9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/3d-character/preview.png using Guid(cb9de266618feab45aa603f5478ee9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6cfde9d93af66178452e01bb960af537') in 0.038432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 73.167664 seconds.
-  path: Assets/Sprites/western-fps-2d/animals/1.png
-  artifactKey: Guid(4fadda5edc1a82a4bbf165e42e1b7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/western-fps-2d/animals/1.png using Guid(4fadda5edc1a82a4bbf165e42e1b7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e9e707c919dd42c90535f5de5ae8e35b') in 0.040493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/western-fps-2d/animals/4.png
-  artifactKey: Guid(53fb750895f2c2b40886fafc3a6ee763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/western-fps-2d/animals/4.png using Guid(53fb750895f2c2b40886fafc3a6ee763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6f99259f2f91af72cc260edc8291ffaf') in 0.033723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/western-fps-2d/animals/5.png
-  artifactKey: Guid(0c289efbfa9fced4fb73c7826d3ba39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/western-fps-2d/animals/5.png using Guid(0c289efbfa9fced4fb73c7826d3ba39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4b08f45e1a5c1b67b5aefbb1b4ed8502') in 0.030586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.274692 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/ninja-adventure/font8x8.png
-  artifactKey: Guid(5bae6d979563a0340b4676c82a693e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/ninja-adventure/font8x8.png using Guid(5bae6d979563a0340b4676c82a693e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f9e7e6689e4a0af1426a1070a01ded50') in 0.035943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/ninja-adventure/preview-part-2.png
-  artifactKey: Guid(9d4bdc86cab9555489e26e115849ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/ninja-adventure/preview-part-2.png using Guid(9d4bdc86cab9555489e26e115849ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c860af5e2c041c4416750d979cf0ecf4') in 0.039718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/superpowers-asset-packs-master/ninja-adventure/preview-part-1.png
-  artifactKey: Guid(2e8e42c3bcdd2904b8b5f91b72dc5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/superpowers-asset-packs-master/ninja-adventure/preview-part-1.png using Guid(2e8e42c3bcdd2904b8b5f91b72dc5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '43fcd374f5c8a3e5a4fffb8a08fdd3a7') in 0.043253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.948 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.852 seconds
+Domain Reload Profiling: 4793ms
+	BeginReloadAssembly (328ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (610ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1945ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (374ms)
+			ProcessInitializeOnLoadAttributes (1393ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Refreshing native plugins compatible for Editor in 17.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3958 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.5 KB). Loaded Objects now: 4477.
+Memory consumption went from 143.9 MB to 143.7 MB.
+Total: 9.489400 ms (FindLiveObjects: 1.230100 ms CreateObjectMapping: 0.791600 ms MarkObjects: 7.016700 ms  DeleteObjects: 0.446500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
